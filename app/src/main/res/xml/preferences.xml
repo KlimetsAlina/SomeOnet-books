@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="Изменить имя пользователя"
+        android:key="username"
+        android:summary="укажите новое имя для изменения"/>
+    <CheckBoxPreference
+        android:title="Получать обновления"
+        android:defaultValue="false"
+        android:summary="Активируйте эту опцию если хотите иметь последнюю версию приложения."
+        android:key="applicationUpdates" />
+    <ListPreference
+        android:title="Детали обновления"
+        android:summary="Выберете удобную для вас опцию обновления."
+        android:key="downloadType"
+        android:defaultValue="1"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+
+    <Preference android:title="Изменить пароль"
+        android:key="@string/change_password_settings"
+        android:summary=""/>
+
+    <Preference android:title="Выйти"
+        android:key="@string/logout_settings"
+        android:summary=""/>
+</PreferenceScreen>

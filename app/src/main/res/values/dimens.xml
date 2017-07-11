@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+
+    <dimen name="drawer_width">240dp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <dimen name="keyline_1">12dp</dimen>
+    <dimen name="navdrawer_width">240dp</dimen>
+    <dimen name="navdrawer_image_height">120dp</dimen>
+    <dimen name="rating_text_size">15sp</dimen>
+    <dimen name="rating_meta_text">14sp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="welcome_content_min_height">45dp</dimen>
+    <dimen name="first_top">65dp</dimen>
+    <dimen name="name_top">120dp</dimen>
+    <dimen name="ic_clear_margin">16dp</dimen>
+    <dimen name="search">18sp</dimen>
+    <dimen name="custom_profile_image">50dp</dimen>
+    <dimen name="custom_profile_padding">2dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

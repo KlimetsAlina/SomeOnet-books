@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "books-api-8b9ab",
+    "project_number": "561321131644",
+    "name": "Books API"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561321131644:android:430dd932aea2bcbe",
+        "client_id": "android:com.example.fix.books",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.fix.books",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561321131644-9ns1hbrif0lm076r477jkrkfvk42v8so.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fix.books",
+            "certificate_hash": "77E5C74883391AC9E338890B1381D51B4240AE56"
+          }
+        },
+        {
+          "client_id": "561321131644-jljeito9s18fqr66cfeevgtcc5egg4ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

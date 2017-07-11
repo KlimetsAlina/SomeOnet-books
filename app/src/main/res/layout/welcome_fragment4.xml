@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:background="#f6c046">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:id="@+id/images"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:clipChildren="false">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/a012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="480dp"
+                android:scaleType="centerInside"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/cancelgif"
+                android:layout_gravity="top"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/a013"
+                android:layout_gravity="right|top"
+                android:layout_marginRight="49dp"
+                android:layout_marginEnd="49dp"
+                android:layout_marginTop="32dp"
+                android:layout_alignTop="@+id/a012"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/a014"
+                android:layout_alignBottom="@+id/a012"
+                android:layout_marginLeft="-5dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/images"
+            android:layout_alignLeft="@id/images"
+            android:gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:layout_margin="8dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/content"
+            android:text="@string/welcom_content_04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:minHeight="@dimen/welcome_content_min_height"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:alpha="1.73"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

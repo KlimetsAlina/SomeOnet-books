@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+
+    <changelogversion versionName="1.5.a" changeDate="Апрель 9,2017">
+        <changelogtext><![CDATA[<b><font color=red>New!</font></b> База Данных]]>
+        </changelogtext>
+        <changelogimprovement><![CDATA[За основу взять Realm,о либе нажать <a href="https://realm.io/docs/java/latest/">сюда</a> ]]></changelogimprovement>
+        <changelogtext>[b]New![/b] Новые задания!
+        </changelogtext>
+        <changelogtext>[b]New![/b] Анимация для Splash Screen!
+        </changelogtext>
+        <changelogtext>[b]New![/b] Стили для текста.
+        </changelogtext>
+        <changelogtext>Мелкие фиксы</changelogtext>
+    </changelogversion>
+
+
+    <changelogversion versionName="1.4.2" changeDate="Апрель 7,2017">
+        <changelogtext><![CDATA[<b><font color=red>New!</font></b> Сообщить об ошибке!]]>
+        </changelogtext>
+        <changelogtext>[b]New![/b] Больше теории!
+        </changelogtext>
+        <changelogtext>[b]Fixed![/b] Исправлены задания
+        </changelogtext>
+        <changelogtext>Мелкие фиксы</changelogtext>
+    </changelogversion>
+
+
+    <changelogversion versionName="1.4.1" changeDate="Апрель 6,2017">
+        <changelogtext><![CDATA[<b><font color=red>New!</font></b> Меню]]>
+        </changelogtext>
+        <changelogtext>[b]New![/b] Больше задания по химии!
+        </changelogtext>
+        <changelogtext>[b]New![/b] Поддержка планшетов!
+        </changelogtext>
+        <changelogtext>[b]Fixed![/b] Возможность войти при помощи Facebook
+        </changelogtext>
+        <changelogtext>Исправлены [i]progressdialog[/i]</changelogtext>
+        <changelogtext>Мелкие фиксы</changelogtext>
+    </changelogversion>
+
+</changelog>
